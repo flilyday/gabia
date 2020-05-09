@@ -1,6 +1,6 @@
 /* style.css */
 #wrap {}
-#header {height: 89px; background-color: #ffebee ;}
+#header {height: 89px; border-bottom: 1px solid #efefef}
 #banner {height: 550px; background-color: #ffcdd2  ;}
 #sbanner {height: 228px; background-color: #ef9a9a  ;}
 #select {height: 498px; background-color: #e57373  ;}
@@ -11,4 +11,10 @@
 #footer {height: 300px; background-color: #c62828  ;}
 
 /* container */
-.container {width: 1180px; height: inherit; background-color: rgba(0,0,0,0.5); margin:0 auto;}
+.container {width: 1180px; height: inherit; /* background-color: rgba(0,0,0,0.5); */ margin:0 auto;}
+
+/* header */
+.header {}
+.header h1 {}
+.header .gnb {}
+.header .quick {}
