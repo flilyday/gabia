@@ -14,7 +14,14 @@
 .container {width: 1180px; height: inherit; /* background-color: rgba(0,0,0,0.5); */ margin:0 auto;}
 
 /* header */
-.header {}
-.header h1 {}
-.header .gnb {}
+.header {overflow: hidden;}
+.header h1 {float: left; padding-top: 24px; margin-right: 20px;}
+.header .gnb {float: left;}
+.header .gnb ul {}
+.header .gnb ul li {display: inline;}
+.header .gnb ul li a {font-size: 18px; padding: 32px 12px; display: inline-block; }
+.header .quick {float: right;}
 .header .quick {}
+.header .quick li {display: inline;}
+.header .quick li a {font-size: 14px; padding: 34px 12px; display: inline-block; color: #676767;}
+
